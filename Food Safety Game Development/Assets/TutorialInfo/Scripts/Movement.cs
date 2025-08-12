@@ -22,7 +22,7 @@ public class Movement : MonoBehaviour
         // transform.position = new Vector3(35.51f, 1.42f, 0.22f);
     }
 
-    // Update is called once per frame
+    // Update is called once per frame 
     void Update()
     {
         SwipeLeft = Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow);
