@@ -12,13 +12,14 @@ public class Movement : MonoBehaviour
     public bool SwipeLeft;
     public bool SwipeRight;
     public float XValue;
-    [SerializeField] private CharacterController m_char;
+    [SerializeField] private UnityEngine.CharacterController m_char;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        m_char = GetComponent<CharacterController>();
-        transform.position = Vector3.zero;
+        m_char = GetComponent<UnityEngine.CharacterController>();
+        // transform.position = new Vector3(35.51f, 1.42f, 0.22f);
     }
 
     // Update is called once per frame
@@ -54,7 +55,7 @@ public class Movement : MonoBehaviour
             }
         }
 
-        m_char.Move((NewXPos - transform.position.x) * Vector3.right);
+        m_char.Move((NewXPos - transform.position.z) * Vector3.forward);
 
     }
 }
