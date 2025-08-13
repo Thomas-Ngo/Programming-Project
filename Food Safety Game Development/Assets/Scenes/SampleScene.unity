@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 100802022}
   - component: {fileID: 100802023}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 100802016}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.06, y: 1.42, z: 0.33}
+  m_LocalPosition: {x: 36.06, y: 2.68, z: 0.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -248,7 +248,13 @@ MonoBehaviour:
   m_Side: 1
   SwipeLeft: 0
   SwipeRight: 0
-  XValue: 2
+  SwipeUp: 0
+  SwipeDown: 0
+  XValue: 3
+  SpeedDodge: 3
+  JumpForce: 5
+  Gravity: -9.81
+  InJump: 0
   m_char: {fileID: 100802022}
 --- !u!1 &705507993
 GameObject:
@@ -443,7 +449,7 @@ Transform:
   m_GameObject: {fileID: 921733519}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.3, z: 0}
   m_LocalScale: {x: 75.097, y: 1, z: 10.661}
   m_ConstrainProportionsScale: 0
   m_Children: []
