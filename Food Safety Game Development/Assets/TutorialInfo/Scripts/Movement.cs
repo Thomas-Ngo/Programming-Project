@@ -7,11 +7,13 @@ public enum SIDE { Left, Mid, Right }
 
 public class Movement : MonoBehaviour
 {
-    public SIDE m_Side = SIDE.Mid;
+    private SIDE m_Side = SIDE.Mid;
+    private Vector2 startTouch;
     float NewXPos = 0f;
-    public bool SwipeLeft;
-    public bool SwipeRight;
-    public float XValue;
+    private bool SwipeLeft;
+    private bool SwipeRight;
+    public float XValue = 2;
+    public float forwardSpeed = 5f;
     [SerializeField] private UnityEngine.CharacterController m_char;
 
 
@@ -19,17 +21,48 @@ public class Movement : MonoBehaviour
     void Start()
     {
         m_char = GetComponent<UnityEngine.CharacterController>();
-        // transform.position = new Vector3(35.51f, 1.42f, 0.22f);
     }
 
     // Update is called once per frame 
     void Update()
     {
-        SwipeLeft = Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow);
-        SwipeRight = Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow);
+        // Reset swipes
+        SwipeLeft = false;
+        SwipeRight = false;
 
+        // Keyboard input
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            SwipeLeft = true;
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            SwipeRight = true;
+
+        // Touch swipe
+        if (Input.touchCount == 1)
+        {
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
+            {
+                startTouch = touch.position;
+            }
+            else if (touch.phase == TouchPhase.Ended)
+            {
+                Vector2 endTouch = touch.position;
+                Vector2 swipe = endTouch - startTouch;
+
+                if (Mathf.Abs(swipe.x) > Mathf.Abs(swipe.y))
+                {
+                    if (swipe.x > 50f)
+                        SwipeRight = true;
+                    else if (swipe.x < -50f)
+                        SwipeLeft = true;
+                }
+            }
+        }
+
+        // Lane switching
         if (SwipeLeft)
         {
+            Debug.Log("left");
             if (m_Side == SIDE.Mid)
             {
                 NewXPos = -XValue;
@@ -41,8 +74,10 @@ public class Movement : MonoBehaviour
                 m_Side = SIDE.Mid;
             }
         }
+
         else if (SwipeRight)
         {
+            Debug.Log("right");
             if (m_Side == SIDE.Mid)
             {
                 NewXPos = XValue;
@@ -55,7 +90,9 @@ public class Movement : MonoBehaviour
             }
         }
 
-        m_char.Move((NewXPos - transform.position.z) * Vector3.forward);
-
+        // Movement
+        Vector3 move = Vector3.forward * forwardSpeed * Time.deltaTime;
+        move += (NewXPos - transform.position.x) * Vector3.right;
+        m_char.Move(move);
     }
 }
