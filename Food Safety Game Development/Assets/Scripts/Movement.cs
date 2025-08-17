@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
         m_char = GetComponent<UnityEngine.CharacterController>();
     }
 
-    // Update is called once per frame
+    // Update is called once per frame 
     void Update()
     {
         // Reset swipes
