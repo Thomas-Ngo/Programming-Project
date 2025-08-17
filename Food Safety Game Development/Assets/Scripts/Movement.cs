@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[System.Serializable]
 
+[System.Serializable]
 public enum SIDE { Left, Mid, Right }
 
 public class Movement : MonoBehaviour
@@ -10,17 +10,24 @@ public class Movement : MonoBehaviour
     private SIDE m_Side = SIDE.Mid;
     private Vector2 startTouch;
     float NewXPos = 0f;
+
     private bool SwipeLeft;
     private bool SwipeRight;
+    private bool SwipeUp;  // For jumping
+
     public float XValue = 2;
     public float forwardSpeed = 5f;
-    [SerializeField] private UnityEngine.CharacterController m_char;
+    public float jumpForce = 8f;     // How strong the jump is
+    public float gravity = -20f;     // Custom gravity
 
+    [SerializeField] private CharacterController m_char;
+
+    private float verticalVelocity;  // Tracks up/down movement
 
     // Start is called before the first frame update
     void Start()
     {
-        m_char = GetComponent<UnityEngine.CharacterController>();
+        m_char = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame 
@@ -29,12 +36,15 @@ public class Movement : MonoBehaviour
         // Reset swipes
         SwipeLeft = false;
         SwipeRight = false;
+        SwipeUp = false;
 
         // Keyboard input
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
             SwipeLeft = true;
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
             SwipeRight = true;
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space))
+            SwipeUp = true;
 
         // Touch swipe
         if (Input.touchCount == 1)
@@ -56,13 +66,17 @@ public class Movement : MonoBehaviour
                     else if (swipe.x < -50f)
                         SwipeLeft = true;
                 }
+                else
+                {
+                    if (swipe.y > 50f)
+                        SwipeUp = true;
+                }
             }
         }
 
         // Lane switching
         if (SwipeLeft)
         {
-            Debug.Log("left");
             if (m_Side == SIDE.Mid)
             {
                 NewXPos = -XValue;
@@ -77,7 +91,6 @@ public class Movement : MonoBehaviour
 
         else if (SwipeRight)
         {
-            Debug.Log("right");
             if (m_Side == SIDE.Mid)
             {
                 NewXPos = XValue;
@@ -90,9 +103,25 @@ public class Movement : MonoBehaviour
             }
         }
 
+        // Jumping
+        if (m_char.isGrounded)
+        {
+            verticalVelocity = -1f;
+            if (SwipeUp)
+            {
+                verticalVelocity = jumpForce;
+            }
+        }
+        else
+        {
+            verticalVelocity += gravity * Time.deltaTime;
+        }
+
         // Movement
         Vector3 move = Vector3.forward * forwardSpeed * Time.deltaTime;
         move += (NewXPos - transform.position.x) * Vector3.right;
+        move.y = verticalVelocity * Time.deltaTime;
+
         m_char.Move(move);
     }
 }
