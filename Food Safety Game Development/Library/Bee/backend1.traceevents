@@ -1,5 +1,6 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1755432251629797, "dur":53, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1755432251629880, "dur":1324, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1755432251631213, "dur":131, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
@@ -509,6 +510,8 @@
 ,{ "pid":12345, "tid":0, "ts":1755432251820583, "dur":1816, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
 ,{ "pid":12345, "tid":0, "ts":1755422803129654, "dur":54, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1755422803129735, "dur":1327, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1755422803131071, "dur":122, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
@@ -1045,6 +1048,7 @@
 ,{ "pid":12345, "tid":16, "ts":1755422803145942, "dur":329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":16, "ts":1755422803146271, "dur":151393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1755422803301590, "dur":2691, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
 =======
 ,{ "pid":12345, "tid":0, "ts":1755082782674228, "dur":1024, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1755082782675264, "dur":76, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
@@ -1380,5 +1384,7 @@
 ,{ "pid":12345, "tid":16, "ts":1755082782689696, "dur":26536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1755082782719122, "dur":1100, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> 061c256bbb55361cfd570428dfdd1c31b28b87d4
+>>>>>>> main
+=======
 >>>>>>> main
 ,
