@@ -295,6 +295,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   XValue: 2.5
   forwardSpeed: 15
+  jumpForce: 8
+  gravity: -20
+  laneSwitchSpeed: 5
+  crouchScale: 0.5
+  crouchDuration: 1
   m_char: {fileID: 100802022}
 --- !u!1 &261849724
 GameObject:
@@ -846,7 +851,7 @@ PrefabInstance:
     - target: {fileID: 4171086996296583508, guid: e55b749ea72a4764fb4683398efba6a3,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 68
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 4255240857428595167, guid: e55b749ea72a4764fb4683398efba6a3,
         type: 3}
