@@ -1,0 +1,28 @@
+.main_button {
+    font-size: 60px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    width: 350px;
+    height: 300px;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+}
+
+.side_button {
+    font-size: 36px;
+    width: 5%;
+    height: auto;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    flex-wrap: wrap;
+    visibility: visible;
+    overflow: visible;
+    display: flex;
+    opacity: 1;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
