@@ -16,21 +16,23 @@ public class UIEvents : MonoBehaviour
     {
         _uiDoc = GetComponent<UIDocument>();
 
-        _btnSelectCharacter = _uiDoc.rootVisualElement.Q("btnSelectCharacter") as Button;
+        //_btnSelectCharacter = _uiDoc.rootVisualElement.Q("btnSelectCharacter") as Button;
         _btnQuestionHistory = _uiDoc.rootVisualElement.Q("btnQuestionHistory") as Button;
         _btnSettings = _uiDoc.rootVisualElement.Q("btnSettings") as Button;
 
         //Register CB
-        _btnSelectCharacter.RegisterCallback<ClickEvent>(OnSelectCharacterClick);
+        //_btnSelectCharacter.RegisterCallback<ClickEvent>(OnSelectCharacterClick);
         _btnQuestionHistory.RegisterCallback<ClickEvent>(OnQuestionHistoryClick);
         _btnSettings.RegisterCallback<ClickEvent>(OnSettingsClick);
     }
 
+    /*
     private void OnSelectCharacterClick(ClickEvent e)
     {
         //Function of Select Character
         Debug.Log("Select Character Clicked");
     }
+    */
 
     private void OnQuestionHistoryClick(ClickEvent e)
     {
@@ -46,7 +48,7 @@ public class UIEvents : MonoBehaviour
 
     private void OnDisable()
     {
-        _btnSelectCharacter.UnregisterCallback<ClickEvent>(OnSelectCharacterClick);
+        //_btnSelectCharacter.UnregisterCallback<ClickEvent>(OnSelectCharacterClick);
         _btnQuestionHistory.UnregisterCallback<ClickEvent>(OnQuestionHistoryClick);
         _btnSettings.UnregisterCallback<ClickEvent>(OnSettingsClick);
     }
