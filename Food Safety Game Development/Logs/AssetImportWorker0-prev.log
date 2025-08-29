@@ -15,7 +15,7 @@ C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59485
+59629
 Successfully changed project path to: C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development
 C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [30020]  Target information:
+Player connection [26188]  Target information:
 
-Player connection [30020]  * "[IP] 192.168.0.82 [Port] 0 [Flags] 2 [Guid] 3233146391 [EditorId] 3233146391 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PISQ9GD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26188]  * "[IP] 192.168.0.82 [Port] 0 [Flags] 2 [Guid] 2470392149 [EditorId] 2470392149 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PISQ9GD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [30020] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [30020] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26188] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26188] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'X:/unity install location/2022.3.41f1/Editor/Data/Managed'
 Mono path[1] = 'X:/unity install location/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'X:/unity install location/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: X:/unity install location/2022.3.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: X:/unity install location/2022.3.41f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: X:/unity install location/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005411 seconds.
-- Loaded All Assemblies, in  0.334 seconds
+Registered in 0.005948 seconds.
+- Loaded All Assemblies, in  0.328 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 225 ms
+Android Extension - Scanning For ADB Devices 220 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.545 seconds
-Domain Reload Profiling: 878ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 867ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (98ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (129ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (121ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (545ms)
+	FinalizeReload (539ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (503ms)
+		SetupLoadedEditorAssemblies (495ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (346ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (336ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (109ms)
@@ -125,52 +125,52 @@ Domain Reload Profiling: 878ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.215 seconds
+- Loaded All Assemblies, in  0.217 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.341 seconds
-Domain Reload Profiling: 556ms
+- Finished resetting the current domain, in  0.355 seconds
+Domain Reload Profiling: 572ms
 	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (34ms)
+	LoadAllAssembliesAndSetupDomain (35ms)
 		LoadAssemblies (80ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (22ms)
-				TypeCache.ScanAssembly (13ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (14ms)
 			ScanForSourceGeneratedMonoScriptInfo (3ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (342ms)
+	FinalizeReload (355ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (216ms)
+		SetupLoadedEditorAssemblies (229ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (31ms)
-			ProcessInitializeOnLoadAttributes (133ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (70.8 KB). Loaded Objects now: 905.
-Memory consumption went from 86.6 MB to 86.6 MB.
-Total: 3.621900 ms (FindLiveObjects: 0.107100 ms CreateObjectMapping: 0.033600 ms MarkObjects: 3.383500 ms  DeleteObjects: 0.096000 ms)
+Unloading 3 unused Assets / (78.9 KB). Loaded Objects now: 905.
+Memory consumption went from 86.7 MB to 86.6 MB.
+Total: 3.647500 ms (FindLiveObjects: 0.111400 ms CreateObjectMapping: 0.039200 ms MarkObjects: 3.393400 ms  DeleteObjects: 0.102000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -185,3 +185,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1301942.575257 seconds.
+  path: Assets/Assets/furniture/market props
+  artifactKey: Guid(2f80ce85dff8a4002bc45bdae5f82795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture/market props using Guid(2f80ce85dff8a4002bc45bdae5f82795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b9a0f85d8156d1548a1c40944599e698') in 0.003944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 213.728194 seconds.
+  path: Assets/Assets/furniture/wood table
+  artifactKey: Guid(a962ae1bfb45c4483b139e58a5fbe85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture/wood table using Guid(a962ae1bfb45c4483b139e58a5fbe85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd71887f82cef4791ce433d182f2c9a25') in 0.000524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.339041 seconds.
+  path: Assets/Assets/furniture/wood table/Materials
+  artifactKey: Guid(d74cff994b3a345ae811181c940b5077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture/wood table/Materials using Guid(d74cff994b3a345ae811181c940b5077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3fa20f8e2a62bb760125f8d45369ab57') in 0.000521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.855516 seconds.
+  path: Assets/Assets/furniture/wood table/source
+  artifactKey: Guid(48cd136d04d17454b92aae4a783bd110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture/wood table/source using Guid(48cd136d04d17454b92aae4a783bd110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0089fc26be5993c61133c0653be3003e') in 0.000661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
