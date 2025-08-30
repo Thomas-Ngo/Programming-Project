@@ -131,7 +131,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 41328469}
-  - component: {fileID: 41328468}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -139,19 +138,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &41328468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41328467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2749a02f3d75f184f96708afd6a4f50f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forwardSpeed: 15
 --- !u!4 &41328469
 Transform:
   m_ObjectHideFlags: 0
@@ -344,6 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -428,6 +415,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 41328469}
   m_LocalEulerAnglesHint: {x: 45, y: -210, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2749a02f3d75f184f96708afd6a4f50f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 100802020}
+  offset: {x: -5, y: 15, z: 15}
+  followX: 0
+  followY: 0
+  followZ: 1
+  lookAtTarget: 0
 --- !u!1 &786533759
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,6 +508,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -584,6 +590,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 41328469}
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2749a02f3d75f184f96708afd6a4f50f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 100802020}
+  offset: {x: 0, y: 5.5, z: -9}
+  followX: 0
+  followY: 0
+  followZ: 1
+  lookAtTarget: 0
 --- !u!850595691 &1674278257
 LightingSettings:
   m_ObjectHideFlags: 0
