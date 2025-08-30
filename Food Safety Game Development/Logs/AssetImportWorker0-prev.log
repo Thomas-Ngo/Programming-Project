@@ -1,23 +1,30 @@
+Unity Editor version:    2022.3.41f1 (0f988161febf)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5.1 (Build 22G90)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.41f1 (0f988161febf) revision 1022081'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16274 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-X:\unity install location\2022.3.41f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.3.41f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development
+/Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food Safety Game Development
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59629
-Successfully changed project path to: C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development
-C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development
+62192
+Successfully changed project path to: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food Safety Game Development
+/Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food Safety Game Development
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,74 +56,74 @@ C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26188]  Target information:
+Player connection [8556306560]  Target information:
 
-Player connection [26188]  * "[IP] 192.168.0.82 [Port] 0 [Flags] 2 [Guid] 2470392149 [EditorId] 2470392149 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PISQ9GD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8556306560]  * "[IP] 192.168.0.183 [Port] 0 [Flags] 2 [Guid] 224075469 [EditorId] 224075469 [Version] 1048832 [Id] OSXEditor(0,Mikes-Air.modem) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [26188] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26188] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Player connection [8556306560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8556306560] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.41f1 (0f988161febf)
-[Subsystems] Discovering subsystems at path X:/unity install location/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/llane/OneDrive/Desktop/Programming-Project/Food Safety Game Development/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.41f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food Safety Game Development/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
-    Vendor:   NVIDIA
-    VRAM:     8018 MB
-    Driver:   32.0.15.7652
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = 'X:/unity install location/2022.3.41f1/Editor/Data/Managed'
-Mono path[1] = 'X:/unity install location/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'X:/unity install location/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.41f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.41f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.41f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56061
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: X:/unity install location/2022.3.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: X:/unity install location/2022.3.41f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: X:/unity install location/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005948 seconds.
-- Loaded All Assemblies, in  0.328 seconds
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.41f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.41f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.41f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003246 seconds.
+- Loaded All Assemblies, in  0.380 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
+[usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 220 ms
+Android Extension - Scanning For ADB Devices 94 ms
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.538 seconds
-Domain Reload Profiling: 867ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.388 seconds
+Domain Reload Profiling: 768ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
 		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (135ms)
 			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (121ms)
+				TypeCache.ScanAssembly (123ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (539ms)
+	FinalizeReload (388ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (495ms)
+		SetupLoadedEditorAssemblies (353ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (336ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (240ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (109ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,52 +132,53 @@ Domain Reload Profiling: 867ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.217 seconds
-Native extension for WindowsStandalone target not found
+- Loaded All Assemblies, in  0.156 seconds
 Native extension for iOS target not found
 Native extension for Android target not found
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.355 seconds
-Domain Reload Profiling: 572ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.262 seconds
+Domain Reload Profiling: 418ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (35ms)
-		LoadAssemblies (80ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (25ms)
+		LoadAssemblies (40ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (14ms)
-			ScanForSourceGeneratedMonoScriptInfo (3ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (11ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (355ms)
+	FinalizeReload (262ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (229ms)
+		SetupLoadedEditorAssemblies (147ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (140ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (21ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.41f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (78.9 KB). Loaded Objects now: 905.
-Memory consumption went from 86.7 MB to 86.6 MB.
-Total: 3.647500 ms (FindLiveObjects: 0.111400 ms CreateObjectMapping: 0.039200 ms MarkObjects: 3.393400 ms  DeleteObjects: 0.102000 ms)
+Unloading 3 unused Assets / (52.0 KB). Loaded Objects now: 905.
+Memory consumption went from 88.7 MB to 88.7 MB.
+Total: 2.460375 ms (FindLiveObjects: 0.206667 ms CreateObjectMapping: 0.009333 ms MarkObjects: 2.025083 ms  DeleteObjects: 0.218750 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -180,44 +188,71 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1301942.575257 seconds.
-  path: Assets/Assets/furniture/market props
-  artifactKey: Guid(2f80ce85dff8a4002bc45bdae5f82795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/furniture/market props using Guid(2f80ce85dff8a4002bc45bdae5f82795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b9a0f85d8156d1548a1c40944599e698') in 0.003944 seconds
+  Time since last request: 5802817.457394 seconds.
+  path: Assets/Assets/background_stone_ground_texture.png
+  artifactKey: Guid(506c32d03ab764c0894d7823b499e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/background_stone_ground_texture.png using Guid(506c32d03ab764c0894d7823b499e287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8a5f2eaae4e8fecdb8abf7d5fc3a8208') in 0.044600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.435693 seconds.
+  path: Assets/Assets/furniture
+  artifactKey: Guid(89da49d7b710a455b832a3f5c16774a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture using Guid(89da49d7b710a455b832a3f5c16774a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e0723ba26f8c2b65d1cc1dbb0eb8293') in 0.000707 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 213.728194 seconds.
-  path: Assets/Assets/furniture/wood table
-  artifactKey: Guid(a962ae1bfb45c4483b139e58a5fbe85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/furniture/wood table using Guid(a962ae1bfb45c4483b139e58a5fbe85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'd71887f82cef4791ce433d182f2c9a25') in 0.000524 seconds
+  Time since last request: 5.167301 seconds.
+  path: Assets/Assets/furniture/asset prefabs/2 stack boxes.prefab
+  artifactKey: Guid(3b55a3d69e3eb864a8fc1b601168e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture/asset prefabs/2 stack boxes.prefab using Guid(3b55a3d69e3eb864a8fc1b601168e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '237158f13b430bd2014acde5b3cf3953') in 0.080052 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1127
 ========================================================================
 Received Import Request.
-  Time since last request: 1.339041 seconds.
-  path: Assets/Assets/furniture/wood table/Materials
-  artifactKey: Guid(d74cff994b3a345ae811181c940b5077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/furniture/wood table/Materials using Guid(d74cff994b3a345ae811181c940b5077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3fa20f8e2a62bb760125f8d45369ab57') in 0.000521 seconds
+  Time since last request: 0.000074 seconds.
+  path: Assets/Assets/furniture/asset prefabs/blue market tent.prefab
+  artifactKey: Guid(32279be5594b6354cbe34d07377a735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture/asset prefabs/blue market tent.prefab using Guid(32279be5594b6354cbe34d07377a735d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1a7b3ea9895730e8589414f708dd7aa7') in 0.015175 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1163
 ========================================================================
 Received Import Request.
-  Time since last request: 2.855516 seconds.
-  path: Assets/Assets/furniture/wood table/source
-  artifactKey: Guid(48cd136d04d17454b92aae4a783bd110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/furniture/wood table/source using Guid(48cd136d04d17454b92aae4a783bd110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0089fc26be5993c61133c0653be3003e') in 0.000661 seconds
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets/furniture/asset prefabs/food sack1.prefab
+  artifactKey: Guid(dbc4ce2972cc06249a5ed511a5670cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture/asset prefabs/food sack1.prefab using Guid(dbc4ce2972cc06249a5ed511a5670cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '45ca33f5986a0f5c210b1a1ca7c88ef5') in 0.215896 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.296014 seconds.
+  path: Assets/Assets/furniture/box crate/Materials/DefaultMaterial_AO.mat
+  artifactKey: Guid(d4f327368c4754a34b8b854bd26d76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/furniture/box crate/Materials/DefaultMaterial_AO.mat using Guid(d4f327368c4754a34b8b854bd26d76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '04b63ba15edc82e657930cad482de7e4') in 0.069002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
