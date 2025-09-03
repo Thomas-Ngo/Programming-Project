@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< HEAD:Packages/packages-lock.json
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 2,
@@ -13,6 +14,14 @@
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
+=======
+    "com.unity.postprocessing": {
+      "version": "3.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+>>>>>>> mike-level-1-background-ideas:Food Safety Game Development/Packages/packages-lock.json
       },
       "url": "https://packages.unity.com"
     },
