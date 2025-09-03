@@ -1,28 +1,28 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-      Safety Game Development/Packages/manifest.json
+    m_FilePath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+      project game/Programming-Project/Food Safety Game Development/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638921310390000000
+      ticks: 638924705890000000
     m_Hash: 1588171754
   m_LockFileStatus:
-    m_FilePath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-      Safety Game Development/Packages/packages-lock.json
+    m_FilePath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+      project game/Programming-Project/Food Safety Game Development/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638921310390000000
+      ticks: 638924705890000000
     m_Hash: 3821083221
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-  Safety Game Development/Packages
+m_ProjectPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+  project game/Programming-Project/Food Safety Game Development/Packages
 m_EditorVersion: 2022.3.41f1 (0f988161febf)
 m_ResolvedPackages:
 - packageId: com.unity.postprocessing@3.4.0
@@ -30,8 +30,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.4.0
   source: 1
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.postprocessing@3.4.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.postprocessing@3.4.0
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -131,8 +131,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 5.2.4
   source: 1
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.probuilder@5.2.4
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.probuilder@5.2.4
   assetPath: Packages/com.unity.probuilder
   name: com.unity.probuilder
   displayName: ProBuilder
@@ -286,8 +286,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.ai@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -343,8 +343,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.androidjni@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -399,8 +399,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.animation@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -456,8 +456,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -513,8 +513,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.audio@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -570,8 +570,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.cloth@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -631,8 +631,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.director@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -696,8 +696,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -754,8 +754,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.imgui@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -811,8 +811,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -868,8 +868,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -925,8 +925,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.physics@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -982,8 +982,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.physics2d@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1039,8 +1039,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.screencapture@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1100,8 +1100,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.terrain@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1157,8 +1157,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1222,8 +1222,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.tilemap@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1282,8 +1282,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.ui@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1339,8 +1339,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.uielements@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1408,8 +1408,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.umbra@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1465,8 +1465,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1530,8 +1530,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -1587,8 +1587,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -1652,8 +1652,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -1717,8 +1717,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -1782,8 +1782,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -1863,8 +1863,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.vehicles@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -1924,8 +1924,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.video@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -1993,8 +1993,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.vr@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2064,8 +2064,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.wind@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2121,8 +2121,8 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.xr@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2190,8 +2190,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.modules.subsystems@1.0.0
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2251,8 +2251,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/Programming-Project/Programming-Project/Food
-    Safety Game Development/Library/PackageCache/com.unity.settings-manager@2.0.1
+  resolvedPath: /Users/mikepapadopoulos/Desktop/rmit/programming project class/programming
+    project game/Programming-Project/Food Safety Game Development/Library/PackageCache/com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
