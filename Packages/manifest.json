@@ -1,10 +1,6 @@
 {
   "dependencies": {
-<<<<<<< HEAD:Packages/manifest.json
     "com.unity.ide.visualstudio": "2.0.23",
-=======
-    "com.unity.postprocessing": "3.4.0",
->>>>>>> mike-level-1-background-ideas:Food Safety Game Development/Packages/manifest.json
     "com.unity.probuilder": "5.2.4",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
