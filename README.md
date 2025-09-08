@@ -1,5 +1,5 @@
 # Programming-Project
-Food Safety Game Development V30.08.2025
+Food Safety Game Development V08.09.2025
 
 ## Hi guys, please read this to help out on consistent development in Unity!
 
@@ -21,5 +21,4 @@ Please ensure you have downloaded the following;
 - Android and iOS support (File > Build Settings > Android and/or iOS downloaded)
 - Editor device is set to any Android or iOS device for testing (Edit > Project Settings > Editor > Unity Remote - Device > Any Android Device / Any iOS device)
 
-
-
+- mike added assets into the unity environment
