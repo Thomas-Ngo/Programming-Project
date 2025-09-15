@@ -30,7 +30,7 @@ public class progressBar : MonoBehaviour
     private void UpdateBar()
     {
         float fillAmount = cur / max;
-        mask.fillAmount = fillAmount;
+        mask.fillAmount = fillAmount; //changes the fill mask on the inner soap bar
     }
 
     public void SetValue(float value)
